@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+ <html>
+    <head>
+
+        <!-- Character Set -->
+        <meta charset="utf-8">
+
+        <!-- For Older Browsers -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Browser Tab Title -->
+        <title>Timothy Krone</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets\images\tk-favicon.png">
+        
+        <!-- Search Description -->
+        <meta name="Timothy Krone" content="Portfolio of works.">
+
+        <!-- For Browser Size -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+        <!-- Link to CSS files -->
+        <link rel="stylesheet" href="assets\css\styleHorizon.css">
+        <link rel="stylesheet" href="assets\css\reset.css">
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Link to the jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+        
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">
+                        <img src="assets\images\iconHome.png" alt="link to home page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="about.html">
+                        <img src="assets\images\iconAbout.png" alt="link to about page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="portfolio.html">
+                        <img src="assets\images\iconPortfolio.png" alt="link to portfolio page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="contact.html">
+                        <img src="assets\images\iconContact.png" alt="link to contact page" width="75" height="auto" style="vertical-align:middle">  
+                </a>
+                <a href="https://www.linkedin.com/in/tim-krone-722491166/" target="_blank">
+                    <img src="assets\images\iconLinkedIn.png" alt="link to linkedin page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <br>
+
+            <div id="description">
+                <p>A few samples of my work for Horizon Beverage (a.k.a Anheuser-Busch Bay Area Sales) in Oakland, California.</p>
+                <br>
+                <p>I was assigned to a wide variety of projects from logos, menus, table tents, posters, and magazine print ads, to large scale vehicle and window wraps, stadium beer carts, and concession stands.</p>
+                <br>
+            </div>
+<!---->
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon01.png" style="width:100%" onclick="openModal();currentSlide(1)" alt="Michelob Ultra Sponsored LPGA 'Closest To The Pin' Signage" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon02.png" style="width:100%" onclick="openModal();currentSlide(2)" alt="Montejo Low Rider Banner" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon03.png" style="width:100%" onclick="openModal();currentSlide(3)" alt="Budweiser/Manchester United Poster" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon04.png" style="width:100%" onclick="openModal();currentSlide(4)" alt="Budweiser/San Francisco Giants Champioships Poster" class="hover-shadow cursor">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon05.png" style="width:100%" onclick="openModal();currentSlide(5)" alt="Bud Light Taco Truck Design" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon06.png" style="width:100%" onclick="openModal();currentSlide(6)" alt="The Bud Light Taco Truck is ready for the NBA Playoffs!" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon07.png" style="width:100%" onclick="openModal();currentSlide(7)" alt="Bud Light Front View" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon08.png" style="width:100%" onclick="openModal();currentSlide(8)" alt="Bud Light Taco Truck Passenger Side" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon09.png" style="width:100%" onclick="openModal();currentSlide(9)" alt="Budweiser Eighteen 76 Bar Designs- Oakland Coliseum" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon10.png" style="width:100%" onclick="openModal();currentSlide(10)" alt="Budweiser Eighteen 76 Bar - Oakland Coliseum" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon11.png" style="width:100%" onclick="openModal();currentSlide(11)" alt="Budweiser Eighteen 76 Bar Digital Scoreboard Advertisment Artwork - Oakland Coliseum" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon12.png" style="width:100%" onclick="openModal();currentSlide(12)" alt="Budweiser Eighteen 76 Bar Scoreboard Advertisment - Oakland Coliseum" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon13.png" style="width:100%" onclick="openModal();currentSlide(13)" alt="Bud Light MXT Black Carbon Fiber Wrap" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon14.png" style="width:100%" onclick="openModal();currentSlide(14)" alt="Bud Light MXT Black Carbon Fiber Wrap" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon15.png" style="width:100%" onclick="openModal();currentSlide(15)" alt="Bud Light MXT Black Carbon Fiber Wrap" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon16.png" style="width:100%" onclick="openModal();currentSlide(16)" alt="Bud Light MXT Black Carbon Fiber Wrap" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon17.png" style="width:100%" onclick="openModal();currentSlide(17)" alt="Modelo/Bud Light Cooler Wrap" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon18.png" style="width:100%" onclick="openModal();currentSlide(18)" alt="Bud Light/Corona Cooler Wrap" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon19.png" style="width:100%" onclick="openModal();currentSlide(19)" alt="Budweiser/San Francisco Giants Cooler Wrap Design" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon20.png" style="width:100%" onclick="openModal();currentSlide(20)" alt="Budweiser/San Francisco Giants Cooler Wrap" class="hover-shadow cursor">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <img src="assets\images\horizon21.png" style="width:100%" onclick="openModal();currentSlide(21)" alt="Bud Light/Warriors Gameday #UpForWhatever Magazine Full Page Advertisment" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon22.png" style="width:100%" onclick="openModal();currentSlide(22)" alt="Bud Light/Raiders Gameday '#UpForWhatever' Magazine Full Page Advertisment" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon23.png" style="width:100%" onclick="openModal();currentSlide(23)" alt="Budweiser/Oakland A's Themed Table Tent - West Side Club, Oakland Coliseum" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets\images\horizon24.png" style="width:100%" onclick="openModal();currentSlide(24)" alt="Custom Bud Light/Raiders Schedule Poster" class="hover-shadow cursor">
+                </div>
+            </div>
+
+
+
+<!---->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                        <div class="numbertext">1 / 24</div>
+                        <img src="assets\images\horizon01.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">2 / 24</div>
+                        <img src="assets\images\horizon02.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">3 / 24</div>
+                        <img src="assets\images\horizon03.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">4 / 24</div>
+                        <img src="assets\images\horizon04.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">5 / 24</div>
+                        <img src="assets\images\horizon05.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">6 / 24</div>
+                        <img src="assets\images\horizon06.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">7 / 24</div>
+                        <img src="assets\images\horizon07.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">8 / 24</div>
+                        <img src="assets\images\horizon08.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">9 / 24</div>
+                        <img src="assets\images\horizon09.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">10 / 24</div>
+                        <img src="assets\images\horizon10.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">11 / 24</div>
+                        <img src="assets\images\horizon11.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">12 / 24</div>
+                        <img src="assets\images\horizon12.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">13 / 24</div>
+                        <img src="assets\images\horizon13.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">14 / 24</div>
+                        <img src="assets\images\horizon14.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">15 / 24</div>
+                        <img src="assets\images\horizon15.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">16 / 24</div>
+                        <img src="assets\images\horizon16.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">17 / 24</div>
+                        <img src="assets\images\horizon17.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">18 / 24</div>
+                        <img src="assets\images\horizon18.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">19 / 24</div>
+                        <img src="assets\images\horizon19.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">20 / 24</div>
+                        <img src="assets\images\horizon20.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">21 / 24</div>
+                        <img src="assets\images\horizon21.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">22 / 24</div>
+                        <img src="assets\images\horizon22.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                        <div class="numbertext">23 / 24</div>
+                        <img src="assets\images\horizon23.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                        <div class="numbertext">24 / 24</div>
+                        <img src="assets\images\horizon24.png" style="width:100%">
+                        </div>
+                            
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                        <p id="caption"></p>
+                        </div>
+                    
+                        
+                        <div class="row">
+                            <img class="demo cursor" src="assets\images\horizon01.png" style="width:5%" onclick="currentSlide(1)" alt="Michelob Ultra Sponsored LPGA 'Closest To The Pin' Signage">
+   
+                            <img class="demo cursor" src="assets\images\horizon02.png" style="width:5%" onclick="currentSlide(2)" alt="Montejo Low Rider Banner">
+                     
+                            <img class="demo cursor" src="assets\images\horizon03.png" style="width:5%" onclick="currentSlide(3)" alt="Budweiser/Manchester United Poster">                     
+                  
+                            <img class="demo cursor" src="assets\images\horizon04.png" style="width:5%" onclick="currentSlide(4)" alt="Budweiser/San Francisco Giants Champioships Poster">
+                      
+                            <img class="demo cursor" src="assets\images\horizon05.png" style="width:5%" onclick="currentSlide(5)" alt="Bud Light Taco Truck Design">
+                 
+                            <img class="demo cursor" src="assets\images\horizon06.png" style="width:5%" onclick="currentSlide(6)" alt="The Bud Light Taco Truck is ready for the NBA Playoffs!">
+                       
+                            <img class="demo cursor" src="assets\images\horizon07.png" style="width:5%" onclick="currentSlide(7)" alt="Bud Light Taco Truck Front View">
+                     
+                            <img class="demo cursor" src="assets\images\horizon08.png" style="width:5%" onclick="currentSlide(8)" alt="Bud Light Taco Truck Passenger Side">
+                        
+                            <img class="demo cursor" src="assets\images\horizon09.png" style="width:5%" onclick="currentSlide(9)" alt="Budweiser Eighteen 76 Bar Designs- Oakland Coliseum">
+                     
+                            <img class="demo cursor" src="assets\images\horizon10.png" style="width:5%" onclick="currentSlide(10)" alt="Budweiser Eighteen 76 Bar - Oakland Coliseum">
+                   
+                            <img class="demo cursor" src="assets\images\horizon11.png" style="width:5%" onclick="currentSlide(11)" alt="Budweiser Eighteen 76 Bar Digital Scoreboard Advertisment Artwork - Oakland Coliseum">                     
+                      
+                            <img class="demo cursor" src="assets\images\horizon12.png" style="width:5%" onclick="currentSlide(12)" alt="Budweiser Eighteen 76 Bar Scoreboard Advertisment - Oakland Coliseum">
+                        
+                            <img class="demo cursor" src="assets\images\horizon13.png" style="width:5%" onclick="currentSlide(13)" alt="Bud Light MXT Black Carbon Fiber Wrap">
+                      
+                            <img class="demo cursor" src="assets\images\horizon14.png" style="width:5%" onclick="currentSlide(14)" alt="Bud Light MXT Black Carbon Fiber Wrap">
+                       
+                            <img class="demo cursor" src="assets\images\horizon15.png" style="width:5%" onclick="currentSlide(15)" alt="Bud Light MXT Black Carbon Fiber Wrap">
+                        
+                            <img class="demo cursor" src="assets\images\horizon16.png" style="width:5%" onclick="currentSlide(16)" alt="Bud Light MXT Black Carbon Fiber Wrap">
+                        
+                            <img class="demo cursor" src="assets\images\horizon17.png" style="width:5%" onclick="currentSlide(17)" alt="Modelo/Bud Light Cooler Wrap">
+                       
+                            <img class="demo cursor" src="assets\images\horizon18.png" style="width:5%" onclick="currentSlide(18)" alt="Bud Light/Corona Cooler Wrap">
+                       
+                            <img class="demo cursor" src="assets\images\horizon19.png" style="width:5%" onclick="currentSlide(19)" alt="Budweiser/San Francisco Giants Cooler Wrap Design">                     
+                       
+                            <img class="demo cursor" src="assets\images\horizon20.png" style="width:5%" onclick="currentSlide(20)" alt="Budweiser/San Francisco Giants Cooler Wrap">
+                      
+                            <img class="demo cursor" src="assets\images\horizon21.png" style="width:5%" onclick="currentSlide(21)" alt="Bud Light Warriors Gameday '#UpForWhatever' Magazine Full Page Advertisment">
+                   
+                            <img class="demo cursor" src="assets\images\horizon22.png" style="width:5%" onclick="currentSlide(22)" alt="Bud Light Raiders Gameday Magazine Full Page Advertisment">
+                   
+                            <img class="demo cursor" src="assets\images\horizon23.png" style="width:5%" onclick="currentSlide(23)" alt="Budweiser/Oakland A's Themed Table Tent - West Side Club, Oakland Coliseum">
+                       
+                            <img class="demo cursor" src="assets\images\horizon24.png" style="width:5%" onclick="currentSlide(24)" alt="Custom Bud Light/Raiders Schedule Poster">
+                        </div>
+                    </div>
+            </div>
+<!---->
+            <div class="footer">
+                <p>Website and Artwork by Tim Krone.  Copywrite &copy; Tim Krone.  All Rights Reserved.</p>
+            </div>
+
+        </div>
+      
+        <!-- Link to the Javascript File -->
+        <script src="assets\javascript\horizonscript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+ <html>
+    <head>
+
+        <!-- Character Set -->
+        <meta charset="utf-8">
+
+        <!-- For Older Browsers -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Browser Tab Title -->
+        <title>Timothy Krone</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets\images\tk-favicon.png">
+        
+        <!-- Search Description -->
+        <meta name="Timothy Krone" content="Portfolio of works.">
+
+        <!-- For Browser Size -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+        <!-- Link to CSS files -->
+        <link rel="stylesheet" href="assets\css\styleContact.css">
+        <link rel="stylesheet" href="assets\css\reset.css">
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Link to the jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">
+                        <img src="assets\images\iconHome.png" alt="link to home page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="about.html">
+                        <img src="assets\images\iconAbout.png" alt="link to about page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="portfolio.html">
+                        <img src="assets\images\iconPortfolio.png" alt="link to portfolio page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="contact.html" class="active">
+                        <img src="assets\images\iconContact.png" alt="link to contact page" width="75" height="auto" style="vertical-align:middle">  
+                </a>
+                <a href="https://www.linkedin.com/in/tim-krone-722491166/" target="_blank">
+                    <img src="assets\images\iconLinkedIn.png" alt="link to linkedin page" width="75" height="auto" style="vertical-align:middle">
+                </a>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="main">
+                <div class="container">
+                    <form action="mailto:tkrone08@gmail.com" method="post" enctype="text/plain">
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="email">e-mail Address</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email01" name="e-mail" placeholder="Your e-mail Address...">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Your Message..." style="height:200px"></textarea>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>Website and Artwork by Tim Krone.  Copywrite &copy; Tim Krone.  All Rights Reserved.</p>
+            </div>
+
+        </div>
+     
+        <!-- Link to the Javascript File -->
+        <script src="assets\javascript\script.js"></script>
+    </body>
+</html>

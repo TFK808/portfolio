@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Character set -->
+        <meta charset="utf-8">
+
+        <!-- for older browsers -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Title --> 
+        <title>The Letter Psychic Game</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets\images\3d letter.jpg">
+
+        <!-- Description -->
+        <meta name="description" content="A simple word guessing game for fun!">
+
+        <!-- For Browser Resizing -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Link to CSS files -->
+        <link rel="stylesheet" href="assets\css\style.css">
+        <link rel="stylesheet" href="assets\css\reset.css">
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img class="mainlogo" src="assets\images\letterguess.png" alt="letter guess logo">
+            </div>
+        </div>
+
+        <h2 id="headline01">
+                Guess what letter I'm thinking of. You have 10 guesses!
+        </h2>
+        <div class="container">
+            <div class="game">
+                
+                <h3>Won</h3>
+                <div id= "won"></div>
+
+                <h3>Lost</h3>
+                <div id="lost"></div>
+
+                <h3>Guesses Remaining</h3>
+                <div id="attempts"></div>
+
+                <h3>Previous Letter Guessed</h3>
+                <div id="playerGuess"></div>
+                
+            </div>
+        </div>
+        <!-- Javascript file -->
+        <script src="assets\javascript\game.js"></script>
+    </body>
+</html>

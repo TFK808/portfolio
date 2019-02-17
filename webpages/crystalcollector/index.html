@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+         <!-- Character set -->
+         <meta charset="utf-8">
+
+         <!-- for older browsers -->
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+         <!-- Title --> 
+         <title>The Crystal Collector Game</title>
+ 
+         <!-- Favicon -->
+         <link rel="shortcut icon" type="image/png" href="assets\images\cystal favicon.jpg">
+ 
+         <!-- Description -->
+         <meta name="description" content="Crystal Collector Game.">
+ 
+         <!-- For Browser Resizing -->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!-- Google Font -->
+         <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+ 
+         <!-- Link to the jQuery Library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+         <!-- Link to CSS files -->
+         <link rel="stylesheet" href="assets\css\style.css">
+         <link rel="stylesheet" href="assets\css\reset.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <img class="toplogo" src="assets\images\toplogo01.png" alt="Crystal Collector logo">
+            <div class="rules">
+                <p>You will be given a random number at the beginning of the game.</p>
+                <br>
+                <p>There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                <br>
+                <p>Win this game by <span style="color: yellow">matching your total score</span> to the random number.  You lose the game if your total score goes above the random number.</p>
+                <br>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <br>
+                <p>Each time the game starts, the game will change the values of each crystal.</p>
+            </div>
+            <div class="overallscore">
+                <span class="rannumber">
+                    <p>Collect This Amount Of Crystals!</p>
+                    <p id="compnumber"></p>
+                </span>
+                <span class="recordWin">
+                    <p>Wins</p>
+                    <p id="wins"></p>
+                </span>
+                <span class="recordLoss">
+                    <p>Losses</p>
+                    <p id="losses"></p>
+                </span>
+            </div>
+            <div class="crystals">
+                <div id="crystal01"><img src="assets\images\crystal01.png" alt="crystal button number 1"></div>
+                <div id="crystal02"><img src="assets\images\crystal02.png" alt="crystal button number 2"></div>
+                <div id="crystal03"><img src="assets\images\crystal03.png" alt="crystal button number 3"></div>
+                <div id="crystal04"><img src="assets\images\crystal04.png" alt="crystal button number 4"></div>
+            </div>
+            <div class="totalscoreheader">total score</div>
+            <div id="totalscore"></div>
+        </div>
+        <!-- Link To Javascript File -->
+        <script src="assets\javascript\script.js" async defer>
+        </script>
+    </body>
+</html>

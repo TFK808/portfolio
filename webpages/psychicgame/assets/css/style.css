@@ -1,0 +1,66 @@
+/* ------- Overall ------ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    max-width: 960px;
+    width: 96%;
+    min-width: 470px;
+    margin: auto;
+}
+
+
+/* ----- main -----*/
+
+.game {
+    max-width: 900px;
+    height: auto;
+}
+
+
+#headline01 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#won {
+    text-align: center;
+}
+
+#lost {
+    text-align: center;
+}
+
+#attempts {
+    text-align: center;
+}
+
+#playerGuess {
+    text-align: center;
+}
+
+
+
+
+/* ----- Resize ----- */
+
+@media (min-width: 0px) and (max-width: 640px) {
+    .mainlogo {max-width: 400px; height: auto; overflow: auto;}
+}
+
+@media (min-width:641px) and (max-width: 768px) {
+    .mainlogo {max-width: 640px; height: auto; overflow: auto;}
+}
+
+@media (min-width:769px) and (max-width: 960px) {
+    .mainlogo {max-width: 768px; height: auto;}
+}

@@ -1,0 +1,134 @@
+/*-- Body --*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+/*-- Body Content --*/
+
+.wrapper {
+    
+    margin: auto;
+    position: relative;
+    max-width: 960px;
+    transition: left .2s ease-in;
+    transition-property: left;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.rules {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.overallscore {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rannumber {
+    font-family: 'Staatliches', cursive;
+    height: 100px;
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#compnumber {
+    font-size: 100px;
+}
+
+#wins {
+    font-size: 100px;
+}
+
+#losses {
+    font-size: 100px;
+}
+
+.recordWin {
+    font-family: 'Staatliches', cursive;  
+    background-color: slateblue;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.recordLoss {
+    font-family: 'Staatliches', cursive;
+    background-color: cadetblue;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    flex: 1;
+}
+.crystals {
+    margin-bottom: 30px;
+}
+
+#crystal01, #crystal02, #crystal03, #crystal04 {
+    display: inline-block;
+    background-color: none;
+}
+
+.totalscoreheader {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 50px;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#totalscore {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 100px;
+    height: 100px;
+    background-color: lightcyan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* ----- Resize ----- */
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .toplogo {max-width: 400px; height: auto; overflow: auto;}
+    .crystals {margin-left: 80px;}
+}
+
+@media (min-width: 501px) and (max-width: 640px) {
+    .toplogo {max-width: 575px; height: auto; overflow: auto;}
+    .crystals {margin-left: 80px;}
+}
+
+@media (min-width:641px) and (max-width: 768px) {
+    .toplogo {max-width: 690px; height: auto; overflow: auto;}
+    .crystals {margin-left: 90px;}
+}
+
+@media (min-width:769px) and (max-width: 960px) {
+    .toplogo {max-width: 900px; height: auto;}
+}
